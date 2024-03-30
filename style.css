@@ -1,0 +1,33 @@
+body {
+    background-image: url(content/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    background-color: black;
+    font-size: 19px;
+}
+
+
+a:hover {
+    color:aqua;
+}
