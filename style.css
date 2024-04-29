@@ -1,8 +1,11 @@
+
+/* фоновое изоюражение "тела" сайта */
 body {
     background-image: url(content/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* перемещенный заголовок на середину, выделенный черным фоном */
 h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 25px;
@@ -10,6 +13,7 @@ h1 {
     color: white;
     text-align: center;
 }
+/* тоже самое, что и с заголовком  */
 p {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
@@ -17,7 +21,7 @@ p {
     background-color: black;
     color: white;
 }
-
+/* убрать нижнее подчеркивание гиперссылки */
 a {
     text-align: center;
     text-decoration: none;
@@ -27,7 +31,7 @@ a {
     font-size: 19px;
 }
 
-
+/* выделяется цветом при наведении курсором */
 a:hover {
     color:aqua;
 }
