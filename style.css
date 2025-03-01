@@ -1,8 +1,8 @@
 
 /* фоновое изоюражение "тела" сайта */
 body {
-    background-image: url(content/background.jpg);
-    background-repeat: no-repeat;
+    background-image: url(content/16.gif);
+    background-repeat: repeat;
     background-size: cover;
 }
 /* перемещенный заголовок на середину, выделенный черным фоном */
