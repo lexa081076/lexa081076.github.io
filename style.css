@@ -4,6 +4,7 @@ body {
     background-image: url(content/16.jpg);
     background-repeat: repeat;
     background-size: cover;
+    background-position: center;
 }
 /* перемещенный заголовок на середину, выделенный черным фоном */
 h1 {
