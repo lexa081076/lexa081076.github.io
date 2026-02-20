@@ -3,49 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Об авторе</title>
+    <title>Фотогалерея</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <h1>Кто я?</h1>
+            <h1>Фотогалерея</h1>
+            <p class="gallery-hint">Чтобы просмотреть фотографии в полном масштабе, нажми правой кнопкой → "Открыть изображение в новой вкладке"</p>
         </header>
 
-        <main class="content">
-            <div class="about-card">
-                <p>зовут меня Алексей. <br> мне 19 лет. живу в городе Великий Новгород. учусь на программиста в Политехническом колледже НовГУ.</p>
-                <p>больше всего я люблю рок-музыку.</p>
-                <p>какой-то прям сверхзнаменитостью я не являюсь. просто люблю ретро-штуки, а также люблю старый интернет конца 1990 - начала 2000 годов.</p>
-                <p class="note">сайт не имеет какое-то прям ультрасовременное оформление, поэтому довольствуйся тем, чем есть :*</p>
+        <main class="gallery-grid">
+            <div class="gallery-item">
+                <img src="content/nabereznaja_7th_november_street.jpeg" alt="Вид на Шелонь">
+                <div class="gallery-description">
+                    <p>вид на реку Шелонь</p>
+                    <p class="location">ул. Набережная 7 ноября, г. Сольцы</p>
+                    <p class="date">📅 16.07.2022</p>
+                    <p class="camera">📱 Nokia X2-02</p>
+                </div>
             </div>
 
-            <div class="social-links">
-                <h2>я в интернете:</h2>
-                <ul class="links-list">
-                    <li><a href="https://steamcommunity.com/id/zasdfaq">Steam</a></li>
-                    <li><a href="https://last.fm/user/alex_williams12">Last.FM</a></li>
-                </ul>
+            <div class="gallery-item">
+                <img src="content/ajvazovskii.jpg" alt="Памятник Айвазовскому">
+                <div class="gallery-description">
+                    <p>Памятник Ивану Айвазовскому</p>
+                    <p class="location">г. Кронштадт</p>
+                    <p class="date">📅 13.10.2023</p>
+                </div>
             </div>
 
-            <div class="pc-specs">
-                <h2>характеристики моего компа:</h2>
-                <ul class="specs-list">
-                    <li>AMD Ryzen 7 5700U</li>
-                    <li>AMD Radeon Vega 8 Graphics</li>
-                    <li>16 GB RAM</li>
-                    <li>SSD SATA M2 на 512 GB</li>
-                </ul>
-                <p>и на всё это добро я установил Linux Mint с XFCE</p>
-            </div>
-
-            <div class="music">
-                <h2>что я слушаю:</h2>
-                <p>Алиса, Ария, Вячеслав Бутусов (Nautilus Pompilius, Ю-Питер), Чиж и Co., <strong>Black Sabbath</strong>, Кино.</p>
-            </div>
-
-            <div class="ps">
-                <p><strong>P.S</strong> — девушки не имею.</p>
+            <div class="gallery-item">
+                <img src="content/remeber_the_war.jpg" alt="Памятник Макарову">
+                <div class="gallery-description">
+                    <p>Памятник С.О. Макарову — "Помни войну"</p>
+                    <p class="location">г. Кронштадт</p>
+                    <p class="date">📅 13.10.2023</p>
+                </div>
             </div>
         </main>
 
