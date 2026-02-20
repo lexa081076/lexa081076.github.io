@@ -1,47 +1,131 @@
+/* Базовые стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* фоновое изоюражение "тела" сайта */
 body {
     background-image: url(content/back.gif);
     background-repeat: repeat;
-    background-size: auto;
-    background-position: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    line-height: 1.5;
 }
 
-/* перемещенный заголовок на середину, выделенный черным фоном */
-h1, h2 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 25px;
+/* Общая обёртка */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
     background-color: black;
     color: white;
+    padding: 10px;
     text-align: center;
+    margin-bottom: 20px;
 }
-/* тоже самое, что и с заголовком  */
-p {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: center;
-    font-size: 19px;
+
+/* Текстовые блоки */
+p, li, .note {
     background-color: black;
-    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
-/* убрать нижнее подчеркивание гиперссылки */
+
+/* Ссылки */
 a {
-    text-align: center;
+    color: white;
     text-decoration: none;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: white;
     background-color: black;
-    font-size: 19px;
+    padding: 5px 10px;
+    display: inline-block;
 }
 
-/* выделяется цветом при наведении курсором */
 a:hover {
-    color:yellow;
+    color: yellow;
 }
 
-ul, li {
-font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 19px;
-    background-color: black;
-    color: white;
+/* Навигация */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     list-style: none;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.nav-list a {
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+/* Галерея — сетка */
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.gallery-item {
+    background-color: black;
+    border: 2px solid white;
+    padding: 15px;
+    max-width: 350px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+
+.gallery-description {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.location, .date, .camera {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Подсказка в галерее */
+.gallery-hint {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Списки */
+.links-list, .specs-list {
+    list-style: none;
+    background-color: black;
+    padding: 15px;
+}
+
+.links-list li, .specs-list li {
+    background-color: transparent;
+    padding: 5px;
+}
+
+/* Соцсети */
+.social-links, .pc-specs, .music, .ps, .about-card {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Футер */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: black;
 }
